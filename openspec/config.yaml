@@ -1,0 +1,22 @@
+schema: spec-driven
+
+context: |
+  Personal developer portfolio website deployed to GitHub Pages (https://duycld03.github.io).
+  Design philosophy:
+  - Linear / Raycast inspired Bento Grid style.
+  - Dark mode first (#0a0a0a), fine 1px hairline borders (border-neutral-800), subtle hover glow and micro-interactions.
+  - Clean, typography-focused (Inter / Geist font aesthetic).
+  - Fast, responsive, accessible, 100/100 Lighthouse performance.
+
+  Tech stack:
+  - Framework: Astro 5 (Static Site Generation, zero-JS by default)
+  - Styling: Tailwind CSS
+  - Icons: Lucide (lucide-astro)
+  - Content management: Astro Content Collections (Zod type-safe schema for projects & experience)
+  - CI/CD: GitHub Actions deploying directly to GitHub Pages
+
+rules:
+  proposal:
+    - Focus on user experience, performance, and clean maintainable static architecture.
+  tasks:
+    - Break tasks into actionable and testable incremental steps.
