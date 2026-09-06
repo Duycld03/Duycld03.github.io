@@ -1,10 +1,10 @@
 ---
 title: "MotelLease"
-description: "Property and lease management system for long-term rental units with automated contract generation and tenant billing."
-tags: ["TypeScript", "Vue 3", "Tailwind CSS", "Docker", "Nginx"]
+description: "Enterprise-grade boarding house discovery & property management platform featuring PostGIS spatial map discovery, SignalR realtime notifications, QuestPDF vector invoices, and MoMo / VNPay payments."
+tags: ["ASP.NET Core", ".NET 10", "PostGIS", "SignalR", "Nuxt 4", "QuestPDF", "MoMo & VNPay"]
 repoUrl: "https://github.com/Duycld03/motellease"
 featured: true
 order: 2
 ---
 
-A comprehensive management portal for landlords and property managers to streamline tenant contracts, billings, and maintenance requests.
+An enterprise-grade platform built with Clean Architecture: spatial discovery via PostGIS & Leaflet maps, 4 role-based portals (Tenant, Landlord, Staff, Admin), automated monthly billing with QuestPDF vector invoices, and MoMo/VNPay webhooks with idempotent ledgers.
