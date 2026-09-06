@@ -12,7 +12,8 @@ export interface ExperienceItem {
 }
 
 export const profile = {
-  name: "Duy Le",
+  name: "Duy Nguyễn",
+  fullName: "Nguyễn Trường Duy",
   handle: "Duycld03",
   role: "Software Engineer",
   tagline: "Crafting reliable backend services, type-safe fullstack systems, and developer-first web experiences.",

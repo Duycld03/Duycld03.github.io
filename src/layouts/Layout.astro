@@ -7,8 +7,8 @@ interface Props {
 }
 
 const {
-  title = "Duy Le — Software Engineer",
-  description = "Personal portfolio of Duy Le (@Duycld03) — Software Engineer specializing in .NET, Vue/Nuxt, Astro, and clean systems architecture.",
+  title = "Duy Nguyễn — Software Engineer",
+  description = "Personal portfolio of Duy Nguyễn (Nguyễn Trường Duy, @Duycld03) — Software Engineer specializing in .NET, Vue/Nuxt, Astro, and clean systems architecture.",
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://duycld03.github.io");
@@ -33,7 +33,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://duycld03
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:site_name" content="Duy Le Portfolio" />
+    <meta property="og:site_name" content="Duy Nguyễn Portfolio" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
