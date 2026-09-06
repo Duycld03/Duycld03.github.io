@@ -67,16 +67,18 @@ const projects = (await getCollection('projects')).sort(
           <ArrowUpRight class="w-3.5 h-3.5 text-neutral-500" />
         </a>
 
-        <a
-          href={profile.socials.linkedin}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-sm font-medium bg-neutral-900 hover:bg-neutral-800 text-neutral-200 border border-neutral-800 transition-colors"
-        >
-          <Linkedin class="w-4 h-4 text-neutral-400" />
-          LinkedIn
-          <ArrowUpRight class="w-3.5 h-3.5 text-neutral-500" />
-        </a>
+{profile.socials.linkedin && (
+  <a
+    href={profile.socials.linkedin}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-sm font-medium bg-neutral-900 hover:bg-neutral-800 text-neutral-200 border border-neutral-800 transition-colors"
+  >
+    <Linkedin class="w-4 h-4 text-neutral-400" />
+    LinkedIn
+    <ArrowUpRight class="w-3.5 h-3.5 text-neutral-500" />
+  </a>
+)}
 
         <a
           href={profile.socials.email}
@@ -220,7 +222,9 @@ const projects = (await getCollection('projects')).sort(
       <p>© {new Date().getFullYear()} {profile.name}. Zero JS static delivery.</p>
       <div class="flex items-center gap-4">
         <a href={profile.socials.github} target="_blank" rel="noopener noreferrer" class="hover:text-neutral-300 transition-colors">GitHub</a>
-        <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer" class="hover:text-neutral-300 transition-colors">LinkedIn</a>
+{profile.socials.linkedin && (
+  <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer" class="hover:text-neutral-300 transition-colors">LinkedIn</a>
+)}
         <a href={profile.socials.email} class="hover:text-neutral-300 transition-colors">Contact</a>
       </div>
     </footer>

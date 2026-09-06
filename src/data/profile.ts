@@ -22,8 +22,7 @@ export const profile = {
   avatarUrl: "https://github.com/Duycld03.png",
   socials: {
     github: "https://github.com/Duycld03",
-    email: "mailto:contact@duycld03.dev",
-    linkedin: "https://linkedin.com/in/duycld03",
+    email: "mailto:truongduy2003@gmail.com",
   },
   skills: [
     {
