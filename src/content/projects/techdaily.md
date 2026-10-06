@@ -1,7 +1,7 @@
 ---
 title: "TechDaily"
 description: "Daily micro-learning & Senior interview preparation platform built with .NET 10 Clean Architecture, Nuxt 4, on-device neural TTS narration, pgvector search, and AI scenario synthesis."
-tags: ["ASP.NET Core", ".NET 10", "Clean Architecture", "Nuxt 4", "pgvector", "AI", "SM-2 Algorithm"]
+tags: ["ASP.NET Core", ".NET 10", "Clean Architecture", "Nuxt 4", "pgvector", "AI Integration", "SM-2 Algorithm"]
 repoUrl: "https://github.com/Duycld03/techdaily"
 demoUrl: "https://techdaily.duckdns.org"
 featured: true

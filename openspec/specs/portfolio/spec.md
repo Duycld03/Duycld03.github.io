@@ -25,7 +25,7 @@ The portfolio SHALL display general, provider-agnostic AI badges and summary des
 
 #### Scenario: View TechDaily project card
 - **WHEN** a visitor views the TechDaily project card in the showcase section
-- **THEN** the project tag displays "AI" rather than vendor-specific "Gemini AI"
+- **THEN** the project tag displays "AI Integration" rather than vendor-specific "Gemini AI"
 - **AND** the project description highlights AI-driven scenario synthesis without vendor-specific model branding
 
 ### Requirement: Bento Grid Project Showcase Integrity
